@@ -11,7 +11,7 @@ namespace LitMotion.Animation.Components
         where TOptions : unmanaged, IMotionOptions
         where TAdapter : unmanaged, IMotionAdapter<TValue, TOptions>
     {
-        [SerializeField] SerializableMotionSettings<TValue, TOptions> settings;
+        public SerializableMotionSettings<TValue, TOptions> settings;
         [SerializeField] UnityEvent<TValue> onValueChanged;
 
         public override MotionHandle Play()
@@ -62,7 +62,7 @@ namespace LitMotion.Animation.Components
     [LitMotionAnimationComponentMenu("Value/String")]
     public sealed class StringValueAnimation : LitMotionAnimationComponent
     {
-        [SerializeField] SerializableMotionSettings<FixedString512Bytes, StringOptions> settings;
+        public SerializableMotionSettings<FixedString512Bytes, StringOptions> settings;
         [SerializeField] UnityEvent<string> onValueChanged;
 
         public override MotionHandle Play()
