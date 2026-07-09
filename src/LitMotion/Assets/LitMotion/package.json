@@ -1,5 +1,5 @@
 {
-    "name": "com.annulusgames.lit-motion",
+    "name": "com.emptybraces.lit-motion",
     "version": "2.0.2",
     "displayName": "LitMotion",
     "description": "Lightning-fast and Zero Allocation Tween Library for Unity.",
@@ -12,7 +12,5 @@
         "com.unity.collections": "1.5.1",
         "com.unity.mathematics": "1.0.1"
     },
-    "author": {
-        "name": "Annulus Games"
-    }
+    "author": "emptybraces"
 }

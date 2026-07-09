@@ -1,5 +1,5 @@
 {
-    "name": "com.annulusgames.lit-motion.animation",
+    "name": "com.emptybraces.lit-motion.animation",
     "version": "2.0.2",
     "displayName": "LitMotion.Animation",
     "description": "Animation component (visual editor) for LitMotion",
@@ -9,9 +9,7 @@
         "animation"
     ],
     "dependencies": {
-        "com.annulusgames.lit-motion": "2.0.0"
+        "com.emptybraces.lit-motion": "2.0.2"
     },
-    "author": {
-        "name": "Annulus Games"
-    }
+    "author": "emptybraces"
 }
