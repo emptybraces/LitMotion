@@ -54,7 +54,7 @@ namespace LitMotion.Animation.Editor
                 {
                     var str = splitStrings[i];
 
-                    var foundChildItem = parent.children.FirstOrDefault(item => item.name == str);
+                    var foundChildItem = parent.childList.FirstOrDefault(item => item.name == str);
                     if (foundChildItem != null)
                     {
                         parent = foundChildItem;
